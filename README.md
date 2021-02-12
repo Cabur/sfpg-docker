@@ -7,4 +7,4 @@ This software is not freely usable in a commercial setting, see the author's web
 https://sye.dk/sfpg/
 
 ## Usage
-`docker run -p 4000:80 -v /home/me/Pictures:/var/www/html/images tobias2/sfpg:latest`
+`docker run -p 4000:80 -v /home/me/Pictures:/var/www/html/images tobias2/sfpg:4.7.1`
