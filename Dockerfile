@@ -16,4 +16,4 @@ RUN wget https://sye.dk/sfpg/Single_File_PHP_Gallery_4.7.1.zip \
     && docker-php-ext-configure gd --with-png-dir=/usr/include --with-jpeg-dir=/usr/include \
     && docker-php-ext-install -j$(nproc) gd
 
-VOLUME /var/www/html/images
+VOLUME /var/www/html
