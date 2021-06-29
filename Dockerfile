@@ -1,6 +1,6 @@
 FROM php:7.0-apache
 
-RUN echo "[PHP]\nmemory_limit = 256M" > /usr/local/etc/php/php.ini
+RUN echo "[PHP]\nmemory_limit = 1024M" > /usr/local/etc/php/php.ini
 
 WORKDIR /var/www/html/
 
